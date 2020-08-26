@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C848914524F2A7770098444E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848914424F2A7770098444E /* AppDelegate.swift */; };
+		C848914724F2A7770098444E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848914624F2A7770098444E /* SceneDelegate.swift */; };
+		C848914924F2A7770098444E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848914824F2A7770098444E /* ViewController.swift */; };
+		C848914C24F2A7780098444E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C848914A24F2A7780098444E /* Main.storyboard */; };
+		C848914E24F2A77B0098444E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C848914D24F2A77B0098444E /* Assets.xcassets */; };
+		C848915124F2A77B0098444E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C848914F24F2A77B0098444E /* LaunchScreen.storyboard */; };
+		C848915C24F2A77B0098444E /* AltimetricTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848915B24F2A77B0098444E /* AltimetricTestTests.swift */; };
+		C848916724F2A8270098444E /* NetworkRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848916624F2A8270098444E /* NetworkRequestHandler.swift */; };
+		C848916924F2A8910098444E /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848916824F2A8910098444E /* Album.swift */; };
+		C848916B24F2AC2E0098444E /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848916A24F2AC2E0098444E /* AlbumListViewModel.swift */; };
+		C848916D24F2B2780098444E /* ViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C848916C24F2B2780098444E /* ViewModelTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C848915824F2A77B0098444E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C848913924F2A7770098444E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C848914024F2A7770098444E;
+			remoteInfo = AltimetricTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C848914124F2A7770098444E /* AltimetricTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltimetricTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C848914424F2A7770098444E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C848914624F2A7770098444E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C848914824F2A7770098444E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C848914B24F2A7780098444E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C848914D24F2A77B0098444E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C848915024F2A77B0098444E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C848915224F2A77B0098444E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C848915724F2A77B0098444E /* AltimetricTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetricTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C848915B24F2A77B0098444E /* AltimetricTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AltimetricTestTests.swift; sourceTree = "<group>"; };
+		C848915D24F2A77B0098444E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C848916624F2A8270098444E /* NetworkRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestHandler.swift; sourceTree = "<group>"; };
+		C848916824F2A8910098444E /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		C848916A24F2AC2E0098444E /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		C848916C24F2B2780098444E /* ViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C848913E24F2A7770098444E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C848915424F2A77B0098444E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C848913824F2A7770098444E = {
+			isa = PBXGroup;
+			children = (
+				C848914324F2A7770098444E /* AltimetricTest */,
+				C848915A24F2A77B0098444E /* AltimetricTestTests */,
+				C848914224F2A7770098444E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C848914224F2A7770098444E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C848914124F2A7770098444E /* AltimetricTest.app */,
+				C848915724F2A77B0098444E /* AltimetricTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C848914324F2A7770098444E /* AltimetricTest */ = {
+			isa = PBXGroup;
+			children = (
+				C848914424F2A7770098444E /* AppDelegate.swift */,
+				C848914624F2A7770098444E /* SceneDelegate.swift */,
+				C848914824F2A7770098444E /* ViewController.swift */,
+				C848914A24F2A7780098444E /* Main.storyboard */,
+				C848914D24F2A77B0098444E /* Assets.xcassets */,
+				C848914F24F2A77B0098444E /* LaunchScreen.storyboard */,
+				C848915224F2A77B0098444E /* Info.plist */,
+				C848916624F2A8270098444E /* NetworkRequestHandler.swift */,
+				C848916824F2A8910098444E /* Album.swift */,
+				C848916A24F2AC2E0098444E /* AlbumListViewModel.swift */,
+			);
+			path = AltimetricTest;
+			sourceTree = "<group>";
+		};
+		C848915A24F2A77B0098444E /* AltimetricTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C848915B24F2A77B0098444E /* AltimetricTestTests.swift */,
+				C848915D24F2A77B0098444E /* Info.plist */,
+				C848916C24F2B2780098444E /* ViewModelTest.swift */,
+			);
+			path = AltimetricTestTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C848914024F2A7770098444E /* AltimetricTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C848916024F2A77B0098444E /* Build configuration list for PBXNativeTarget "AltimetricTest" */;
+			buildPhases = (
+				C848913D24F2A7770098444E /* Sources */,
+				C848913E24F2A7770098444E /* Frameworks */,
+				C848913F24F2A7770098444E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltimetricTest;
+			productName = AltimetricTest;
+			productReference = C848914124F2A7770098444E /* AltimetricTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C848915624F2A77B0098444E /* AltimetricTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C848916324F2A77B0098444E /* Build configuration list for PBXNativeTarget "AltimetricTestTests" */;
+			buildPhases = (
+				C848915324F2A77B0098444E /* Sources */,
+				C848915424F2A77B0098444E /* Frameworks */,
+				C848915524F2A77B0098444E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C848915924F2A77B0098444E /* PBXTargetDependency */,
+			);
+			name = AltimetricTestTests;
+			productName = AltimetricTestTests;
+			productReference = C848915724F2A77B0098444E /* AltimetricTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C848913924F2A7770098444E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Sagar Shinde";
+				TargetAttributes = {
+					C848914024F2A7770098444E = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					C848915624F2A77B0098444E = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = C848914024F2A7770098444E;
+					};
+				};
+			};
+			buildConfigurationList = C848913C24F2A7770098444E /* Build configuration list for PBXProject "AltimetricTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C848913824F2A7770098444E;
+			productRefGroup = C848914224F2A7770098444E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C848914024F2A7770098444E /* AltimetricTest */,
+				C848915624F2A77B0098444E /* AltimetricTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C848913F24F2A7770098444E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C848915124F2A77B0098444E /* LaunchScreen.storyboard in Resources */,
+				C848914E24F2A77B0098444E /* Assets.xcassets in Resources */,
+				C848914C24F2A7780098444E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C848915524F2A77B0098444E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C848913D24F2A7770098444E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C848914924F2A7770098444E /* ViewController.swift in Sources */,
+				C848914524F2A7770098444E /* AppDelegate.swift in Sources */,
+				C848916B24F2AC2E0098444E /* AlbumListViewModel.swift in Sources */,
+				C848914724F2A7770098444E /* SceneDelegate.swift in Sources */,
+				C848916724F2A8270098444E /* NetworkRequestHandler.swift in Sources */,
+				C848916924F2A8910098444E /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C848915324F2A77B0098444E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C848916D24F2B2780098444E /* ViewModelTest.swift in Sources */,
+				C848915C24F2A77B0098444E /* AltimetricTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C848915924F2A77B0098444E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C848914024F2A7770098444E /* AltimetricTest */;
+			targetProxy = C848915824F2A77B0098444E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C848914A24F2A7780098444E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C848914B24F2A7780098444E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C848914F24F2A77B0098444E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C848915024F2A77B0098444E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C848915E24F2A77B0098444E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C848915F24F2A77B0098444E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C848916124F2A77B0098444E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N55X35T3G7;
+				INFOPLIST_FILE = AltimetricTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandisk.Loggon.AltimetricTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C848916224F2A77B0098444E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N55X35T3G7;
+				INFOPLIST_FILE = AltimetricTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandisk.Loggon.AltimetricTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C848916424F2A77B0098444E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N55X35T3G7;
+				INFOPLIST_FILE = AltimetricTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandisk.Loggon.AltimetricTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimetricTest.app/AltimetricTest";
+			};
+			name = Debug;
+		};
+		C848916524F2A77B0098444E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N55X35T3G7;
+				INFOPLIST_FILE = AltimetricTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sandisk.Loggon.AltimetricTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimetricTest.app/AltimetricTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C848913C24F2A7770098444E /* Build configuration list for PBXProject "AltimetricTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C848915E24F2A77B0098444E /* Debug */,
+				C848915F24F2A77B0098444E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C848916024F2A77B0098444E /* Build configuration list for PBXNativeTarget "AltimetricTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C848916124F2A77B0098444E /* Debug */,
+				C848916224F2A77B0098444E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C848916324F2A77B0098444E /* Build configuration list for PBXNativeTarget "AltimetricTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C848916424F2A77B0098444E /* Debug */,
+				C848916524F2A77B0098444E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C848913924F2A7770098444E /* Project object */;
+}

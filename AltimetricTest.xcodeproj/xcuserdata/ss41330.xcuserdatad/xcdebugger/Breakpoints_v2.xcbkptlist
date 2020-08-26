@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "B20F8B67-8D88-4D7F-B0C9-AFF619EECD14"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1D2E80F-61CC-4DF7-A6A4-7FD51E8FE3B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AltimetricTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "59131771-AEAD-4EE5-886C-EF81E9F4E555"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AltimetricTest/NetworkRequestHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "getAlbums(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A072450-C98B-4D0B-9F7B-1764C07D4D1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AltimetricTest/NetworkRequestHandler.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "getAlbums(completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "34F26B11-1768-43A3-B7A5-86FD34D10F39"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AltimetricTest/AlbumListViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
+            landmarkName = "sortBy(option:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E1D05F65-080F-47F7-A74D-8F4F2AD87C29"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AltimetricTest/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "segmentValueChanged(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E1D05F65-080F-47F7-A74D-8F4F2AD87C29 - abe16f204e154b89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AltimetricTest.ViewController.segmentValueChanged(__C.UISegmentedControl) -&gt; ()"
+                  moduleName = "AltimetricTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ss41330/Documents/Development/Sample%20Apps/Udemy/AltimetricTest/AltimetricTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "87">
+               </Location>
+               <Location
+                  uuid = "E1D05F65-080F-47F7-A74D-8F4F2AD87C29 - abe16f204e154b89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AltimetricTest.ViewController.segmentValueChanged(__C.UISegmentedControl) -&gt; ()"
+                  moduleName = "AltimetricTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ss41330/Documents/Development/Sample%20Apps/Udemy/AltimetricTest/AltimetricTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "E1D05F65-080F-47F7-A74D-8F4F2AD87C29 - abe16f204e154b89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AltimetricTest.ViewController.segmentValueChanged(__C.UISegmentedControl) -&gt; ()"
+                  moduleName = "AltimetricTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ss41330/Documents/Development/Sample%20Apps/Udemy/AltimetricTest/AltimetricTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "175">
+               </Location>
+               <Location
+                  uuid = "E1D05F65-080F-47F7-A74D-8F4F2AD87C29 - abe16f204e154b89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AltimetricTest.ViewController.segmentValueChanged(__C.UISegmentedControl) -&gt; ()"
+                  moduleName = "AltimetricTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ss41330/Documents/Development/Sample%20Apps/Udemy/AltimetricTest/AltimetricTest/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
